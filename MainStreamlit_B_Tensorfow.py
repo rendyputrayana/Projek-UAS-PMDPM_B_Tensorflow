@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-model = load_model(r'C:\Users\ASUS\Desktop\Folder pengumpulan\dataset\BestModel_VGG CNN_Tensorflow.h5')
+model = load_model(r'BestModel_VGG_CNN_Tensorflow.h5')
 class_names = ["Jahe", "Kunyit", "Lengkuas"]
 
 def predict_image(image):
